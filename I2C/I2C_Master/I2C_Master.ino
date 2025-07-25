@@ -4,7 +4,7 @@
 
 #define SCREEN_WIDTH 128  // OLED width, in pixels
 #define SCREEN_HEIGHT 64  // OLED height, in pixels
-#define OLED_RESET    -1  // Reset pin (not needed for SSD1306)
+#define OLED_RESET    -1  // Reset pin 
 #define I2C_SLAVE_ADDR 0x08  // I2C address of the slave
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);

@@ -1,0 +1,19 @@
+# Arduino sketch files
+*.hex
+*.elf
+*.bin
+
+# Build folders
+build/
+*.d
+
+# OS or IDE generated
+.DS_Store
+*.swp
+*.bak
+.vscode/
+*.dep
+*.layout
+
+# Arduino IDE backup files
+*~
